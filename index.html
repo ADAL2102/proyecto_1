@@ -11,44 +11,47 @@
 
         <div class="title">Registro</div>
         <form action="#">
-            <label for="nombre" required="">Nombre: </label>
-            <input type="text" id="nombre">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre" required="">Nombre: </label>
+                <input type="text" id="nombre">
 
-            <label for="Sexo" required="">Sexo </label>
-            <select id="Sexo">
+                <label for="Sexo" required="">Sexo </label>
+                <select id="Sexo">
 
-                <option value="Masculino">Masculino</option>
-                <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
 
-            </select><br><br>
+                </select><br><br>
 
-            <label>Edad: </label>
-            <input type="checkbox" value="18-30"> 18-30 años
-            <input type="checkbox" value="31-45"> 31-45 años
-            <input type="checkbox" value="45_mayor"> 45 años o mas <br><br>
+                <label>Edad: </label>
+                <input type="checkbox" value="18-30"> 18-30 años
+                <input type="checkbox" value="31-45"> 31-45 años
+                <input type="checkbox" value="45_mayor"> 45 años o mas <br><br>
 
-            <label for="email">Correo Electrónico: </label>
-            <input type="text" id="email">
+                <label for="email">Correo Electrónico: </label>
+                <input type="text" id="email">
 
-            <label for="estudios">Estudios:</label>
-            <select name="estudios" id="estudios">
-                <optgroup label="Estudios">
+                <label for="estudios">Estudios:</label>
+                <select name="estudios" id="estudios">
+                    <optgroup label="Estudios">
 
-                    <option>Secundaria</option>
-                    <option>Bachillerato</option>
-                    <option>Licenciatura</option>
+                        <option>Secundaria</option>
+                        <option>Bachillerato</option>
+                        <option>Licenciatura</option>
 
-                </optgroup>
-            </select><br><br>
+                    </optgroup>
+                </select><br><br>
 
-            <label for="contrasenia">Ingrese una contraseña: </label>
-            <input type="password" id="contrasenia">
+                <label for="contrasenia">Ingrese una contraseña: </label>
+                <input type="password" id="contrasenia">
 
-            <label for="cont2">Confirme su contraseña: </label>
-            <input type="password" id="cont2">
+                <label for="cont2">Confirme su contraseña: </label>
+                <input type="password" id="cont2">
 
-            <label for="motivo">Escribre el motivo de tu registro</label>
-            <textarea name="" id="mensaje"></textarea>
+                <label for="motivo">Escribre el motivo de tu registro</label>
+                <textarea name="" id="mensaje"></textarea>
+            </fieldset>
 
         </form>
 
