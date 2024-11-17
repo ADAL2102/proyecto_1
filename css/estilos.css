@@ -15,11 +15,11 @@ body{
 
 h1{
     text-align: center;
-    color: #333333;
+    color: #100f0f;
 }
 
 h2{
-    color: #555;
+    color: #363636;
     margin-top: 20px;
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 5px;
@@ -41,9 +41,9 @@ label{
     margin-bottom: 5px;
 }
 
-input, select, textarea{{
+input, select, textarea{
     width: 100%;
-    padding: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -73,5 +73,14 @@ fieldset{
 legend{
     font-size: 16px;
     font-weight: bold;
-    color: #007BFF;
+    color: #5c5c5c;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20 auto;
+    border-radius: 10px;
+}
+
