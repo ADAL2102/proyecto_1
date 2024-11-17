@@ -84,3 +84,9 @@ img{
     border-radius: 10px;
 }
 
+.imagen-lobo{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
